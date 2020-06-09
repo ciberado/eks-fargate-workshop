@@ -1,6 +1,6 @@
 # EKS with Fargate workshop
 
-This short workshop will provide you with instructions to start your journey through serverless Kubernetes in EKS.
+This short workshop will provide you with instructions to start your journey through serverless Kubernetes in EKS. Remember you can reach me through [Twitter](https://twitter.com/ciberado), [LinkedIn](https://linkedin.com/in/javier-more) or mail (`email at javier-moreno dot com`) to solve any doubt.
 
 ## Requirements
 
