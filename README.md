@@ -330,7 +330,7 @@ kubectl get pods -n openfaas-fn
 echo "Hello dears!" | faas-cli invoke figlet
 ```
 
-* Clean up the house
+* Clean up the house (**double check for unremoved resources, like ALBs**)
 
 ```bash
 nohup eksctl delete cluster $CLUSTER_NAME --region eu-west-1 &
