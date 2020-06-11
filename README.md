@@ -42,6 +42,12 @@ time eksctl create cluster \
   --fargate
 ```
 
+* It is always possible to reconfigure your `.kube/config` with
+
+```bash
+aws eks --region eu-west-1 update-kubeconfig --name $CLUSTER_NAME
+```
+
 * Check how you have a node for each deployed pod:
 
 ```bash
