@@ -92,7 +92,7 @@ EOF
 ```bash
 kubectl apply -f pokemon-deployment-$ID.yaml
 kubectl scale deployment pokemon-deployment-$ID --replicas 3
-watch kubectl get pods
+watch kubectl get pods --selector app=pokemonweb-$ID
 ```
 
 * Read the log of any pod:
