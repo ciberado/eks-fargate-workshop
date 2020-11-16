@@ -183,7 +183,7 @@ sudo apt-get install jq -y
 * Get the id of the cluster VPC (network) with
 
 ```bash
-VPC_ID=$(eksctl get cluster -n $CLUSTER_NAME --output json | jq -r ".[0].ResourcesVpcConfig.VpcId") && echo $VPC_ID
+VPC_ID=$(eksctl get cluster -n $CLUSTER_NAME --output json --region eu-west-1 | jq -r ".[0].ResourcesVpcConfig.VpcId") && echo $VPC_ID
 ```
 
 * Compose controller configuration using variables:
